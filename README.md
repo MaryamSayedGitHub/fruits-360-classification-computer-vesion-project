@@ -92,65 +92,6 @@ Input → Augmentation → MobileNetV2 Preprocessing → MobileNetV2 (frozen →
 | EarlyStopping | patience = 3 |
 | ReduceLROnPlateau | patience = 2 |
 
----
-
-## 📈 Results & Performance
-
-### Sample training images
-
-![Sample Images](working_outputs/plots/sample_images.png)
-
----
-
-### Class distribution
-
-![Class Distribution](working_outputs/plots/class_distribution.png)
-
----
-
-### Model comparison — Accuracy
-
-![Model Comparison Accuracy](working_outputs/plots/model_comparison_accuracy.png)
-
----
-
-### Model comparison — Weighted F1-score
-
-![Model Comparison F1](working_outputs/plots/model_comparison_f1.png)
-
----
-
-### Training curves — Baseline CNN
-
-| Accuracy | Loss |
-|:---:|:---:|
-| ![Baseline Accuracy](working_outputs/plots/accuracy_baseline_cnn.png) | ![Baseline Loss](working_outputs/plots/loss_baseline_cnn.png) |
-
----
-
-### Training curves — Custom CNN
-
-| Accuracy | Loss |
-|:---:|:---:|
-| ![Custom CNN Accuracy](working_outputs/plots/accuracy_custom_cnn.png) | ![Custom CNN Loss](working_outputs/plots/loss_custom_cnn.png) |
-
----
-
-### Training curves — MobileNetV2
-
-| Accuracy | Loss |
-|:---:|:---:|
-| ![MobileNetV2 Accuracy](working_outputs/plots/accuracy_mobilenetv2.png) | ![MobileNetV2 Loss](working_outputs/plots/loss_mobilenetv2.png) |
-
----
-
-### Confusion matrices
-
-| Baseline CNN | Custom CNN | MobileNetV2 |
-|:---:|:---:|:---:|
-| ![CM Baseline](working_outputs/plots/confusion_matrix_baseline_cnn.png) | ![CM Custom](working_outputs/plots/confusion_matrix_custom_cnn.png) | ![CM MobileNet](working_outputs/plots/confusion_matrix_mobilenetv2.png) |
-
----
 
 ## 🗂️ Project Structure
 
