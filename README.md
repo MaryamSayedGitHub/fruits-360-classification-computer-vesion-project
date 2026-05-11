@@ -4,13 +4,7 @@
 
 ---
 
-## 📊 Results at a Glance
 
-| Model | Accuracy | Precision | Recall | F1 (weighted) | Epochs |
-|:---|:---:|:---:|:---:|:---:|:---:|
-| ⭐ **MobileNetV2** | — | — | — | — | 8 + 3 FT |
-| **Custom CNN** | — | — | — | — | 8 |
-| **Baseline CNN** | — | — | — | — | 6 |
 
 > Fill in the `—` values from `working_outputs/reports/model_comparison_results.csv` after running the notebook.
 
