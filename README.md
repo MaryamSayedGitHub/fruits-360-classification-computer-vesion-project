@@ -15,7 +15,6 @@
 - [Overview](#-overview)
 - [Dataset](#-dataset)
 - [Models](#-models)
-- [Results & Performance](#-results--performance)
 - [Project Structure](#-project-structure)
 - [Getting Started](#-getting-started)
 - [Configuration](#-configuration)
